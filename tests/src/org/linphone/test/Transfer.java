@@ -2,9 +2,9 @@ package org.linphone.test;
 
 import junit.framework.Assert;
 
-import org.linphone.InCallActivity;
-import org.linphone.LinphoneActivity;
-import org.linphone.LinphoneManager;
+import org.advance2000.InCallActivity;
+import org.advance2000.LinphoneActivity;
+import org.advance2000.LinphoneManager;
 import org.linphone.core.LinphoneCall;
 import org.linphone.mediastream.Log;
 

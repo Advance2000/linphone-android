@@ -2,8 +2,8 @@ package org.linphone.test;
 
 import junit.framework.Assert;
 
-import org.linphone.ChatStorage;
-import org.linphone.LinphoneActivity;
+import org.advance2000.ChatStorage;
+import org.advance2000.LinphoneActivity;
 import org.linphone.core.LinphoneChatMessage;
 import org.linphone.core.LinphoneChatMessage.State;
 import org.linphone.core.LinphoneChatRoom;

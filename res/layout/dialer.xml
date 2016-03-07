@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
   	android:background="@drawable/background">
     
-    <org.linphone.ui.AddressText
+    <org.advance2000.ui.AddressText
         android:id="@+id/Adress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -35,7 +35,7 @@
             android:layout_weight="1"
             android:src="@drawable/add_contact" />
         
-        <org.linphone.ui.CallButton
+        <org.advance2000.ui.CallButton
             android:contentDescription="@string/content_description_call"
             android:id="@+id/Call"
             android:layout_width="match_parent"
@@ -45,7 +45,7 @@
             android:layout_weight="1"
             android:src="@drawable/call" />
         
-        <org.linphone.ui.EraseButton
+        <org.advance2000.ui.EraseButton
             android:contentDescription="@string/content_description_backspace"
             android:id="@+id/Erase"
             android:layout_width="match_parent"
@@ -57,7 +57,7 @@
         
     </LinearLayout>
 	
-    <org.linphone.ui.Numpad
+    <org.advance2000.ui.Numpad
         android:contentDescription="@string/content_description_numpad"
 	    android:id="@+id/Dialer"
         android:layout_width="match_parent"

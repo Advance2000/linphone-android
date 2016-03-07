@@ -43,7 +43,7 @@
 		    android:orientation="vertical"
 		    android:paddingTop="30dip" >
 			
-		    <org.linphone.ui.AvatarWithShadow
+		    <org.advance2000.ui.AvatarWithShadow
 			    android:id="@+id/incoming_picture"
 			    android:layout_width="wrap_content"
 			    android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
 		
 	</LinearLayout>
 
-    <org.linphone.ui.LinphoneSliders
+    <org.advance2000.ui.LinphoneSliders
         android:id="@+id/sliding_widget"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

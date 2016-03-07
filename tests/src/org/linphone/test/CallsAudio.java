@@ -2,25 +2,20 @@ package org.linphone.test;
 
 import junit.framework.Assert;
 
-import org.linphone.InCallActivity;
-import org.linphone.IncomingCallActivity;
-import org.linphone.LinphoneActivity;
-import org.linphone.LinphoneManager;
+import org.advance2000.InCallActivity;
+import org.advance2000.IncomingCallActivity;
+import org.advance2000.LinphoneActivity;
+import org.advance2000.LinphoneManager;
 import org.linphone.core.LinphoneCall;
 import org.linphone.core.LinphoneCore;
 import org.linphone.core.LinphoneCoreException;
 import org.linphone.core.PayloadType;
-import org.linphone.mediastream.Log;
 
 import android.test.suitebuilder.annotation.LargeTest;
 import android.test.suitebuilder.annotation.MediumTest;
 import android.test.suitebuilder.annotation.SmallTest;
 import android.util.DisplayMetrics;
 import android.view.View;
-
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @author Sylvain Berfini

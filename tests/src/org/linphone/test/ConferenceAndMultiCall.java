@@ -4,12 +4,11 @@ import java.util.ArrayList;
 
 import junit.framework.Assert;
 
-import org.linphone.InCallActivity;
-import org.linphone.IncomingCallActivity;
-import org.linphone.LinphoneActivity;
-import org.linphone.LinphoneManager;
+import org.advance2000.InCallActivity;
+import org.advance2000.IncomingCallActivity;
+import org.advance2000.LinphoneActivity;
+import org.advance2000.LinphoneManager;
 import org.linphone.core.LinphoneCall;
-import org.linphone.core.LinphoneCore.RegistrationState;
 import org.linphone.core.LinphoneCoreException;
 import org.linphone.mediastream.Log;
 

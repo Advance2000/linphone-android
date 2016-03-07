@@ -2,10 +2,10 @@ package org.linphone.test;
 
 import junit.framework.Assert;
 
-import org.linphone.FragmentsAvailable;
-import org.linphone.LinphoneActivity;
-import org.linphone.LinphoneManager;
-import org.linphone.LinphonePreferences;
+import org.advance2000.FragmentsAvailable;
+import org.advance2000.LinphoneActivity;
+import org.advance2000.LinphoneManager;
+import org.advance2000.LinphonePreferences;
 import org.linphone.core.LinphoneProxyConfig;
 
 import android.test.suitebuilder.annotation.LargeTest;

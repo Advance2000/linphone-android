@@ -71,7 +71,7 @@ ANT_SILENT=$(shell ant -h | grep -q -- -S && echo 1 || echo 0)
 CHECK_MSG=$(shell ./check_tools.sh)
 
 ifneq ($(CHECK_MSG),)
-	$(error Some tools are missing.)
+$(error Some tools are missing.)
 else
 	ifeq ($(BUILD_OPENH264),1)
 		ifneq ($(shell echo $(NDK_MAJOR_VERSION)\>=10 | bc),1)

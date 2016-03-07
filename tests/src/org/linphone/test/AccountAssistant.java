@@ -2,12 +2,12 @@ package org.linphone.test;
 
 import junit.framework.Assert;
 
-import org.linphone.LinphoneActivity;
-import org.linphone.LinphoneManager;
-import org.linphone.LinphonePreferences;
+import org.advance2000.LinphoneActivity;
+import org.advance2000.LinphoneManager;
+import org.advance2000.LinphonePreferences;
 import org.linphone.core.LinphoneProxyConfig;
 import org.linphone.mediastream.video.capture.hwconf.Hacks;
-import org.linphone.setup.SetupActivity;
+import org.advance2000.setup.SetupActivity;
 
 import android.test.suitebuilder.annotation.LargeTest;
 import android.test.suitebuilder.annotation.MediumTest;
